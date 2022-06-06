@@ -15,7 +15,7 @@
 </head>
 
 <style>
-    a{
+    a {
         text-decoration: none;
     }
 </style>
@@ -25,13 +25,28 @@
         <div class="container-header">
             <div class="height-35">
 
-                <div>
+                <div class="responsive-header">
                     <p class="margin-none ">
                         <a class="text-decoration-none" href="#">
-                            <span class="text-light text-break line-height-35 upper-case">
+                            <span class="text-light text-break line-height-35 upper-case desappear">
                                 SOMOS A SOLUÇÃO PARA VOCÊ QUE QUER ECONOMIZAR E TER UM PRODUTO DE QUALIDADE PARA A SUA
                                 VIDA.
                             </span>
+                            <span class="appear-affter text-light text-break line-height-35 upper-case">
+                                PARCELAMOS SEU PRODUTO SEM JUROS
+                            </span>
+                            <span class="last-appear text-light text-break line-height-35 upper-case">
+                                PARCELAMOS SEUS PRODUTOS SEM JUROS ATÉ 6X
+                            </span>
+                            <div class="div-last-icons">
+                            <span class="text-light line-height-35">
+                                    <i class="bi bi-search fa-2x" style="font-size: 18px;"></i>
+                                
+                                    <i class="bi bi-bag fa-2x" style="font-size: 18px;"></i>
+    
+                                    <i class="bi bi-lightning-charge last fa-2x" style="font-size: 18px;"></i>
+                                </span>
+                            </div>
                         </a>
                     </p>
                 </div>
@@ -51,43 +66,55 @@
             <div>
                 <p class="margin-none">
                     <a class="text-decoration-none" href="#">
-                        <span class="upper-case text-logo">
+                        <span class="logo-desappear upper-case text-logo">
                             Love Bike Store
+                        </span>
+                        <span class="logo-appear upper-case text-logo">
+                            LBS
                         </span>
                     </a>
                 </p>
             </div>
-            <ul class="ul-child-second-header">
-                <li class="list-style-none">
-                    <a href="#" class="text-decoration-none upper-case color-1010 a-to-second-header">BICICLETAS</a>
-                </li>
-                <li class="list-style-none">
-                    <a href="#" class="text-decoration-none upper-case color-1010 a-to-second-header">COMPONENTES</a>
-                </li>
-                <li class="list-style-none">
-                    <a href="#" class="text-decoration-none upper-case color-1010 a-to-second-header">ACESSORIOS</a>
-                </li>
-                <li class="list-style-none">
-                    <a href="#" class="text-decoration-none upper-case color-1010 a-to-second-header">VESTUÁRIO</a>
-                </li>
-                <div class="float-end div-icon">
-                    <li class="list-style-none">
-                        <a class="color-1010" href="">
-                            <i class="bi bi-search fa-2x"></i>
-                        </a>
+            <nav class="nav">
+                <ul class="ul-child-second-header">
+                    <li class="list-style-none display-out">
+                        <a href="#" class="text-decoration-none upper-case color-1010 a-to-second-header">BICICLETAS</a>
                     </li>
-                    <li class="list-style-none">
-                        <a class="color-1010" href="">
-                            <i class="bi bi-bag fa-2x"></i>
-                        </a>
+                    <li class="list-style-none display-out">
+                        <a href="#"
+                            class="text-decoration-none upper-case color-1010 a-to-second-header">COMPONENTES</a>
                     </li>
-                    <li class="list-style-none">
-                        <a class="color-1010" href="">
-                            <i class="bi bi-lightning-charge last fa-2x"></i>
-                        </a>
+                    <li class="list-style-none display-out">
+                        <a href="#" class="text-decoration-none upper-case color-1010 a-to-second-header">ACESSORIOS</a>
                     </li>
-                </div>
-            </ul>
+                    <li class="list-style-none display-out">
+                        <a href="#" class="text-decoration-none upper-case color-1010 a-to-second-header">VESTUÁRIO</a>
+                    </li>
+
+                    <div class="float-end div-icon">
+
+
+                        <button type="button" class="nav-toggler" style="width: 10px;">
+                            <span></span>
+                        </button>
+                        <li class="list-style-none">
+                            <a class="color-1010" href="">
+                                <i class="bi bi-search fa-2x icon-dsrp"></i>
+                            </a>
+                        </li>
+                        <li class="list-style-none">
+                            <a class="color-1010" href="">
+                                <i class="bi bi-bag fa-2x icon-dsrp"></i>
+                            </a>
+                        </li>
+                        <li class="list-style-none">
+                            <a class="color-1010" href="">
+                                <i class="bi bi-lightning-charge last fa-2x icon-dsrp"></i>
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </nav>
         </div>
     </div>
     <div class="image">
@@ -119,111 +146,119 @@
         <div class="content-info-produtos">
             <ul class="ul-info-produtos">
                 <svg width="301" height="64" viewBox="0 0 301 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M300.35 62.999L294.35 63.0328C287.35 63.0722 275.35 63.1397 262.322 58.213C250.3 54.2806 237.25 45.3539 225.216 39.4215C212.182 33.4948 200.166 30.5624 187.155 28.6356C175.149 27.7031 162.149 27.7763 150.166 30.8438C137.184 33.9169 125.218 39.9844 112.252 46.0574C100.285 52.1249 87.3195 58.198 75.3084 56.2655C62.303 55.3387 50.2525 46.4064 37.2246 41.4797C25.2022 37.5473 12.2025 37.6204 6.20255 37.6542L0.202644 37.688L2.1968e-05 1.68854L5.99993 1.65477C11.9998 1.621 24.9996 1.54783 36.9994 1.48029C49.9992 1.40712 61.999 1.33958 74.9988 1.26641C86.9986 1.19887 99.9984 1.1257 111.998 1.05816C124.998 0.984989 136.998 0.917448 149.998 0.844279C161.997 0.776739 174.997 0.70357 186.997 0.636029C199.997 0.56286 211.997 0.49532 224.996 0.422151C236.996 0.35461 249.996 0.281441 261.996 0.213901C274.996 0.140732 286.995 0.0731912 293.995 0.0337926L299.995 2.22921e-05L300.35 62.999Z" fill="#EEA7A7"/>
-                    </svg>
-                 
-            <div class="div-image">
-                <img src="Epic-expert.png" class="image-produto">
-            </div>  
-            <div class="click-produto">
-                <center>
-                    <i class="bi bi-arrow-right arrow"></i>
-                </center>
-            </div>
-            <div class="nome-produto">
-                <p>
-                    <a href="" class="text-decoration-none">
-                        <span class="nome">
-                            Epic EVO Comp
-                        </span>
-                        <br>
-                        <span class="price">
-                            R$ 49.990,00
-                        </span>
-                    </a>
-                </p>
-            </div>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M300.35 62.999L294.35 63.0328C287.35 63.0722 275.35 63.1397 262.322 58.213C250.3 54.2806 237.25 45.3539 225.216 39.4215C212.182 33.4948 200.166 30.5624 187.155 28.6356C175.149 27.7031 162.149 27.7763 150.166 30.8438C137.184 33.9169 125.218 39.9844 112.252 46.0574C100.285 52.1249 87.3195 58.198 75.3084 56.2655C62.303 55.3387 50.2525 46.4064 37.2246 41.4797C25.2022 37.5473 12.2025 37.6204 6.20255 37.6542L0.202644 37.688L2.1968e-05 1.68854L5.99993 1.65477C11.9998 1.621 24.9996 1.54783 36.9994 1.48029C49.9992 1.40712 61.999 1.33958 74.9988 1.26641C86.9986 1.19887 99.9984 1.1257 111.998 1.05816C124.998 0.984989 136.998 0.917448 149.998 0.844279C161.997 0.776739 174.997 0.70357 186.997 0.636029C199.997 0.56286 211.997 0.49532 224.996 0.422151C236.996 0.35461 249.996 0.281441 261.996 0.213901C274.996 0.140732 286.995 0.0731912 293.995 0.0337926L299.995 2.22921e-05L300.35 62.999Z"
+                        fill="#EEA7A7" />
+                </svg>
+
+                <div class="div-image">
+                    <img src="Epic-expert.png" class="image-produto">
+                </div>
+                <div class="click-produto">
+                    <center>
+                        <i class="bi bi-arrow-right arrow"></i>
+                    </center>
+                </div>
+                <div class="nome-produto">
+                    <p>
+                        <a href="" class="text-decoration-none">
+                            <span class="nome">
+                                Epic EVO Comp
+                            </span>
+                            <br>
+                            <span class="price">
+                                R$ 49.990,00
+                            </span>
+                        </a>
+                    </p>
+                </div>
             </ul>
             <ul class="ul-info-produtos">
                 <svg width="301" height="64" viewBox="0 0 301 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M300.35 62.999L294.35 63.0328C287.35 63.0722 275.35 63.1397 262.322 58.213C250.3 54.2806 237.25 45.3539 225.216 39.4215C212.182 33.4948 200.166 30.5624 187.155 28.6356C175.149 27.7031 162.149 27.7763 150.166 30.8438C137.184 33.9169 125.218 39.9844 112.252 46.0574C100.285 52.1249 87.3195 58.198 75.3084 56.2655C62.303 55.3387 50.2525 46.4064 37.2246 41.4797C25.2022 37.5473 12.2025 37.6204 6.20255 37.6542L0.202644 37.688L2.1968e-05 1.68854L5.99993 1.65477C11.9998 1.621 24.9996 1.54783 36.9994 1.48029C49.9992 1.40712 61.999 1.33958 74.9988 1.26641C86.9986 1.19887 99.9984 1.1257 111.998 1.05816C124.998 0.984989 136.998 0.917448 149.998 0.844279C161.997 0.776739 174.997 0.70357 186.997 0.636029C199.997 0.56286 211.997 0.49532 224.996 0.422151C236.996 0.35461 249.996 0.281441 261.996 0.213901C274.996 0.140732 286.995 0.0731912 293.995 0.0337926L299.995 2.22921e-05L300.35 62.999Z" fill="#EEA7A7"/>
-                    </svg>
-                 
-            <div class="div-image">
-                <img src="Epic-expert.png" class="image-produto">
-            </div>  
-            <div class="click-produto">
-                <center>
-                    <i class="bi bi-arrow-right arrow"></i>
-                </center>
-            </div>
-            <div class="nome-produto">
-                <p>
-                    <a href="" class="text-decoration-none">
-                        <span class="nome">
-                            Epic EVO Comp
-                        </span>
-                        <br>
-                        <span class="price">
-                            R$ 49.990,00
-                        </span>
-                    </a>
-                </p>
-            </div>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M300.35 62.999L294.35 63.0328C287.35 63.0722 275.35 63.1397 262.322 58.213C250.3 54.2806 237.25 45.3539 225.216 39.4215C212.182 33.4948 200.166 30.5624 187.155 28.6356C175.149 27.7031 162.149 27.7763 150.166 30.8438C137.184 33.9169 125.218 39.9844 112.252 46.0574C100.285 52.1249 87.3195 58.198 75.3084 56.2655C62.303 55.3387 50.2525 46.4064 37.2246 41.4797C25.2022 37.5473 12.2025 37.6204 6.20255 37.6542L0.202644 37.688L2.1968e-05 1.68854L5.99993 1.65477C11.9998 1.621 24.9996 1.54783 36.9994 1.48029C49.9992 1.40712 61.999 1.33958 74.9988 1.26641C86.9986 1.19887 99.9984 1.1257 111.998 1.05816C124.998 0.984989 136.998 0.917448 149.998 0.844279C161.997 0.776739 174.997 0.70357 186.997 0.636029C199.997 0.56286 211.997 0.49532 224.996 0.422151C236.996 0.35461 249.996 0.281441 261.996 0.213901C274.996 0.140732 286.995 0.0731912 293.995 0.0337926L299.995 2.22921e-05L300.35 62.999Z"
+                        fill="#EEA7A7" />
+                </svg>
+
+                <div class="div-image">
+                    <img src="Epic-expert.png" class="image-produto">
+                </div>
+                <div class="click-produto">
+                    <center>
+                        <i class="bi bi-arrow-right arrow"></i>
+                    </center>
+                </div>
+                <div class="nome-produto">
+                    <p>
+                        <a href="" class="text-decoration-none">
+                            <span class="nome">
+                                Epic EVO Comp
+                            </span>
+                            <br>
+                            <span class="price">
+                                R$ 49.990,00
+                            </span>
+                        </a>
+                    </p>
+                </div>
             </ul>
             <ul class="ul-info-produtos">
                 <svg width="301" height="64" viewBox="0 0 301 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M300.35 62.999L294.35 63.0328C287.35 63.0722 275.35 63.1397 262.322 58.213C250.3 54.2806 237.25 45.3539 225.216 39.4215C212.182 33.4948 200.166 30.5624 187.155 28.6356C175.149 27.7031 162.149 27.7763 150.166 30.8438C137.184 33.9169 125.218 39.9844 112.252 46.0574C100.285 52.1249 87.3195 58.198 75.3084 56.2655C62.303 55.3387 50.2525 46.4064 37.2246 41.4797C25.2022 37.5473 12.2025 37.6204 6.20255 37.6542L0.202644 37.688L2.1968e-05 1.68854L5.99993 1.65477C11.9998 1.621 24.9996 1.54783 36.9994 1.48029C49.9992 1.40712 61.999 1.33958 74.9988 1.26641C86.9986 1.19887 99.9984 1.1257 111.998 1.05816C124.998 0.984989 136.998 0.917448 149.998 0.844279C161.997 0.776739 174.997 0.70357 186.997 0.636029C199.997 0.56286 211.997 0.49532 224.996 0.422151C236.996 0.35461 249.996 0.281441 261.996 0.213901C274.996 0.140732 286.995 0.0731912 293.995 0.0337926L299.995 2.22921e-05L300.35 62.999Z" fill="#EEA7A7"/>
-                    </svg>
-                 
-            <div class="div-image">
-                <img src="Epic-expert.png" class="image-produto">
-            </div>  
-            <div class="click-produto">
-                <center>
-                    <i class="bi bi-arrow-right arrow"></i>
-                </center>
-            </div>
-            <div class="nome-produto">
-                <p>
-                    <a href="" class="text-decoration-none">
-                        <span class="nome">
-                            Epic EVO Comp
-                        </span>
-                        <br>
-                        <span class="price">
-                            R$ 49.990,00
-                        </span>
-                    </a>
-                </p>
-            </div>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M300.35 62.999L294.35 63.0328C287.35 63.0722 275.35 63.1397 262.322 58.213C250.3 54.2806 237.25 45.3539 225.216 39.4215C212.182 33.4948 200.166 30.5624 187.155 28.6356C175.149 27.7031 162.149 27.7763 150.166 30.8438C137.184 33.9169 125.218 39.9844 112.252 46.0574C100.285 52.1249 87.3195 58.198 75.3084 56.2655C62.303 55.3387 50.2525 46.4064 37.2246 41.4797C25.2022 37.5473 12.2025 37.6204 6.20255 37.6542L0.202644 37.688L2.1968e-05 1.68854L5.99993 1.65477C11.9998 1.621 24.9996 1.54783 36.9994 1.48029C49.9992 1.40712 61.999 1.33958 74.9988 1.26641C86.9986 1.19887 99.9984 1.1257 111.998 1.05816C124.998 0.984989 136.998 0.917448 149.998 0.844279C161.997 0.776739 174.997 0.70357 186.997 0.636029C199.997 0.56286 211.997 0.49532 224.996 0.422151C236.996 0.35461 249.996 0.281441 261.996 0.213901C274.996 0.140732 286.995 0.0731912 293.995 0.0337926L299.995 2.22921e-05L300.35 62.999Z"
+                        fill="#EEA7A7" />
+                </svg>
+
+                <div class="div-image">
+                    <img src="Epic-expert.png" class="image-produto">
+                </div>
+                <div class="click-produto">
+                    <center>
+                        <i class="bi bi-arrow-right arrow"></i>
+                    </center>
+                </div>
+                <div class="nome-produto">
+                    <p>
+                        <a href="" class="text-decoration-none">
+                            <span class="nome">
+                                Epic EVO Comp
+                            </span>
+                            <br>
+                            <span class="price">
+                                R$ 49.990,00
+                            </span>
+                        </a>
+                    </p>
+                </div>
             </ul>
             <ul class="ul-info-produtos">
                 <svg width="301" height="64" viewBox="0 0 301 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M300.35 62.999L294.35 63.0328C287.35 63.0722 275.35 63.1397 262.322 58.213C250.3 54.2806 237.25 45.3539 225.216 39.4215C212.182 33.4948 200.166 30.5624 187.155 28.6356C175.149 27.7031 162.149 27.7763 150.166 30.8438C137.184 33.9169 125.218 39.9844 112.252 46.0574C100.285 52.1249 87.3195 58.198 75.3084 56.2655C62.303 55.3387 50.2525 46.4064 37.2246 41.4797C25.2022 37.5473 12.2025 37.6204 6.20255 37.6542L0.202644 37.688L2.1968e-05 1.68854L5.99993 1.65477C11.9998 1.621 24.9996 1.54783 36.9994 1.48029C49.9992 1.40712 61.999 1.33958 74.9988 1.26641C86.9986 1.19887 99.9984 1.1257 111.998 1.05816C124.998 0.984989 136.998 0.917448 149.998 0.844279C161.997 0.776739 174.997 0.70357 186.997 0.636029C199.997 0.56286 211.997 0.49532 224.996 0.422151C236.996 0.35461 249.996 0.281441 261.996 0.213901C274.996 0.140732 286.995 0.0731912 293.995 0.0337926L299.995 2.22921e-05L300.35 62.999Z" fill="#EEA7A7"/>
-                    </svg>
-                 
-            <div class="div-image">
-                <img src="Epic-expert.png" class="image-produto">
-            </div>  
-            <div class="click-produto">
-                <center>
-                    <i class="bi bi-arrow-right arrow"></i>
-                </center>
-            </div>
-            <div class="nome-produto">
-                <p>
-                    <a href="" class="text-decoration-none">
-                        <span class="nome">
-                            Epic EVO Comp
-                        </span>
-                        <br>
-                        <span class="price">
-                            R$ 49.990,00
-                        </span>
-                    </a>
-                </p>
-            </div>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M300.35 62.999L294.35 63.0328C287.35 63.0722 275.35 63.1397 262.322 58.213C250.3 54.2806 237.25 45.3539 225.216 39.4215C212.182 33.4948 200.166 30.5624 187.155 28.6356C175.149 27.7031 162.149 27.7763 150.166 30.8438C137.184 33.9169 125.218 39.9844 112.252 46.0574C100.285 52.1249 87.3195 58.198 75.3084 56.2655C62.303 55.3387 50.2525 46.4064 37.2246 41.4797C25.2022 37.5473 12.2025 37.6204 6.20255 37.6542L0.202644 37.688L2.1968e-05 1.68854L5.99993 1.65477C11.9998 1.621 24.9996 1.54783 36.9994 1.48029C49.9992 1.40712 61.999 1.33958 74.9988 1.26641C86.9986 1.19887 99.9984 1.1257 111.998 1.05816C124.998 0.984989 136.998 0.917448 149.998 0.844279C161.997 0.776739 174.997 0.70357 186.997 0.636029C199.997 0.56286 211.997 0.49532 224.996 0.422151C236.996 0.35461 249.996 0.281441 261.996 0.213901C274.996 0.140732 286.995 0.0731912 293.995 0.0337926L299.995 2.22921e-05L300.35 62.999Z"
+                        fill="#EEA7A7" />
+                </svg>
+
+                <div class="div-image">
+                    <img src="Epic-expert.png" class="image-produto">
+                </div>
+                <div class="click-produto">
+                    <center>
+                        <i class="bi bi-arrow-right arrow"></i>
+                    </center>
+                </div>
+                <div class="nome-produto">
+                    <p>
+                        <a href="" class="text-decoration-none">
+                            <span class="nome">
+                                Epic EVO Comp
+                            </span>
+                            <br>
+                            <span class="price">
+                                R$ 49.990,00
+                            </span>
+                        </a>
+                    </p>
+                </div>
             </ul>
         </div>
     </div>
@@ -239,144 +274,157 @@
         <div class="content-info-produtos">
             <ul class="ul-info-produtos">
                 <svg width="301" height="64" viewBox="0 0 301 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M300.35 62.999L294.35 63.0328C287.35 63.0722 275.35 63.1397 262.322 58.213C250.3 54.2806 237.25 45.3539 225.216 39.4215C212.182 33.4948 200.166 30.5624 187.155 28.6356C175.149 27.7031 162.149 27.7763 150.166 30.8438C137.184 33.9169 125.218 39.9844 112.252 46.0574C100.285 52.1249 87.3195 58.198 75.3084 56.2655C62.303 55.3387 50.2525 46.4064 37.2246 41.4797C25.2022 37.5473 12.2025 37.6204 6.20255 37.6542L0.202644 37.688L2.1968e-05 1.68854L5.99993 1.65477C11.9998 1.621 24.9996 1.54783 36.9994 1.48029C49.9992 1.40712 61.999 1.33958 74.9988 1.26641C86.9986 1.19887 99.9984 1.1257 111.998 1.05816C124.998 0.984989 136.998 0.917448 149.998 0.844279C161.997 0.776739 174.997 0.70357 186.997 0.636029C199.997 0.56286 211.997 0.49532 224.996 0.422151C236.996 0.35461 249.996 0.281441 261.996 0.213901C274.996 0.140732 286.995 0.0731912 293.995 0.0337926L299.995 2.22921e-05L300.35 62.999Z" fill="#EEA7A7"/>
-                    </svg>
-                 
-            <div class="div-image">
-                <img src="ROAD R3 BRAVE.png" class="image-produto">
-            </div>  
-            <div class="click-produto">
-                <center>
-                    <i class="bi bi-arrow-right arrow"></i>
-                </center>
-            </div>
-            <div class="nome-produto">
-                <p>
-                    <a href="" class="text-decoration-none">
-                        <span class="nome">
-                            Epic EVO Comp
-                        </span>
-                        <br>
-                        <span class="price">
-                            R$ 49.990,00
-                        </span>
-                    </a>
-                </p>
-            </div>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M300.35 62.999L294.35 63.0328C287.35 63.0722 275.35 63.1397 262.322 58.213C250.3 54.2806 237.25 45.3539 225.216 39.4215C212.182 33.4948 200.166 30.5624 187.155 28.6356C175.149 27.7031 162.149 27.7763 150.166 30.8438C137.184 33.9169 125.218 39.9844 112.252 46.0574C100.285 52.1249 87.3195 58.198 75.3084 56.2655C62.303 55.3387 50.2525 46.4064 37.2246 41.4797C25.2022 37.5473 12.2025 37.6204 6.20255 37.6542L0.202644 37.688L2.1968e-05 1.68854L5.99993 1.65477C11.9998 1.621 24.9996 1.54783 36.9994 1.48029C49.9992 1.40712 61.999 1.33958 74.9988 1.26641C86.9986 1.19887 99.9984 1.1257 111.998 1.05816C124.998 0.984989 136.998 0.917448 149.998 0.844279C161.997 0.776739 174.997 0.70357 186.997 0.636029C199.997 0.56286 211.997 0.49532 224.996 0.422151C236.996 0.35461 249.996 0.281441 261.996 0.213901C274.996 0.140732 286.995 0.0731912 293.995 0.0337926L299.995 2.22921e-05L300.35 62.999Z"
+                        fill="#EEA7A7" />
+                </svg>
+
+                <div class="div-image">
+                    <img src="ROAD R3 BRAVE.png" class="image-produto">
+                </div>
+                <div class="click-produto">
+                    <center>
+                        <i class="bi bi-arrow-right arrow"></i>
+                    </center>
+                </div>
+                <div class="nome-produto">
+                    <p>
+                        <a href="" class="text-decoration-none">
+                            <span class="nome">
+                                Epic EVO Comp
+                            </span>
+                            <br>
+                            <span class="price">
+                                R$ 49.990,00
+                            </span>
+                        </a>
+                    </p>
+                </div>
             </ul>
             <ul class="ul-info-produtos">
                 <svg width="301" height="64" viewBox="0 0 301 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M300.35 62.999L294.35 63.0328C287.35 63.0722 275.35 63.1397 262.322 58.213C250.3 54.2806 237.25 45.3539 225.216 39.4215C212.182 33.4948 200.166 30.5624 187.155 28.6356C175.149 27.7031 162.149 27.7763 150.166 30.8438C137.184 33.9169 125.218 39.9844 112.252 46.0574C100.285 52.1249 87.3195 58.198 75.3084 56.2655C62.303 55.3387 50.2525 46.4064 37.2246 41.4797C25.2022 37.5473 12.2025 37.6204 6.20255 37.6542L0.202644 37.688L2.1968e-05 1.68854L5.99993 1.65477C11.9998 1.621 24.9996 1.54783 36.9994 1.48029C49.9992 1.40712 61.999 1.33958 74.9988 1.26641C86.9986 1.19887 99.9984 1.1257 111.998 1.05816C124.998 0.984989 136.998 0.917448 149.998 0.844279C161.997 0.776739 174.997 0.70357 186.997 0.636029C199.997 0.56286 211.997 0.49532 224.996 0.422151C236.996 0.35461 249.996 0.281441 261.996 0.213901C274.996 0.140732 286.995 0.0731912 293.995 0.0337926L299.995 2.22921e-05L300.35 62.999Z" fill="#EEA7A7"/>
-                    </svg>
-                 
-            <div class="div-image">
-                <img src="MF-529 ROAD.png" class="image-produto">
-            </div>  
-            <div class="click-produto">
-                <center>
-                    <i class="bi bi-arrow-right arrow"></i>
-                </center>
-            </div>
-            <div class="nome-produto">
-                <p>
-                    <a href="" class="text-decoration-none">
-                        <span class="nome">
-                            Epic EVO Comp
-                        </span>
-                        <br>
-                        <span class="price">
-                            R$ 49.990,00
-                        </span>
-                    </a>
-                </p>
-            </div>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M300.35 62.999L294.35 63.0328C287.35 63.0722 275.35 63.1397 262.322 58.213C250.3 54.2806 237.25 45.3539 225.216 39.4215C212.182 33.4948 200.166 30.5624 187.155 28.6356C175.149 27.7031 162.149 27.7763 150.166 30.8438C137.184 33.9169 125.218 39.9844 112.252 46.0574C100.285 52.1249 87.3195 58.198 75.3084 56.2655C62.303 55.3387 50.2525 46.4064 37.2246 41.4797C25.2022 37.5473 12.2025 37.6204 6.20255 37.6542L0.202644 37.688L2.1968e-05 1.68854L5.99993 1.65477C11.9998 1.621 24.9996 1.54783 36.9994 1.48029C49.9992 1.40712 61.999 1.33958 74.9988 1.26641C86.9986 1.19887 99.9984 1.1257 111.998 1.05816C124.998 0.984989 136.998 0.917448 149.998 0.844279C161.997 0.776739 174.997 0.70357 186.997 0.636029C199.997 0.56286 211.997 0.49532 224.996 0.422151C236.996 0.35461 249.996 0.281441 261.996 0.213901C274.996 0.140732 286.995 0.0731912 293.995 0.0337926L299.995 2.22921e-05L300.35 62.999Z"
+                        fill="#EEA7A7" />
+                </svg>
+
+                <div class="div-image">
+                    <img src="MF-529 ROAD.png" class="image-produto">
+                </div>
+                <div class="click-produto">
+                    <center>
+                        <i class="bi bi-arrow-right arrow"></i>
+                    </center>
+                </div>
+                <div class="nome-produto">
+                    <p>
+                        <a href="" class="text-decoration-none">
+                            <span class="nome">
+                                Epic EVO Comp
+                            </span>
+                            <br>
+                            <span class="price">
+                                R$ 49.990,00
+                            </span>
+                        </a>
+                    </p>
+                </div>
             </ul>
             <ul class="ul-info-produtos">
                 <svg width="301" height="64" viewBox="0 0 301 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M300.35 62.999L294.35 63.0328C287.35 63.0722 275.35 63.1397 262.322 58.213C250.3 54.2806 237.25 45.3539 225.216 39.4215C212.182 33.4948 200.166 30.5624 187.155 28.6356C175.149 27.7031 162.149 27.7763 150.166 30.8438C137.184 33.9169 125.218 39.9844 112.252 46.0574C100.285 52.1249 87.3195 58.198 75.3084 56.2655C62.303 55.3387 50.2525 46.4064 37.2246 41.4797C25.2022 37.5473 12.2025 37.6204 6.20255 37.6542L0.202644 37.688L2.1968e-05 1.68854L5.99993 1.65477C11.9998 1.621 24.9996 1.54783 36.9994 1.48029C49.9992 1.40712 61.999 1.33958 74.9988 1.26641C86.9986 1.19887 99.9984 1.1257 111.998 1.05816C124.998 0.984989 136.998 0.917448 149.998 0.844279C161.997 0.776739 174.997 0.70357 186.997 0.636029C199.997 0.56286 211.997 0.49532 224.996 0.422151C236.996 0.35461 249.996 0.281441 261.996 0.213901C274.996 0.140732 286.995 0.0731912 293.995 0.0337926L299.995 2.22921e-05L300.35 62.999Z" fill="#EEA7A7"/>
-                    </svg>
-                 
-            <div class="div-image">
-                <img src="MF-529 MTB.png" class="image-produto">
-            </div>  
-            <div class="click-produto">
-                <center>
-                    <i class="bi bi-arrow-right arrow"></i>
-                </center>
-            </div>
-            <div class="nome-produto">
-                <p>
-                    <a href="" class="text-decoration-none">
-                        <span class="nome">
-                            Epic EVO Comp
-                        </span>
-                        <br>
-                        <span class="price">
-                            R$ 49.990,00
-                        </span>
-                    </a>
-                </p>
-            </div>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M300.35 62.999L294.35 63.0328C287.35 63.0722 275.35 63.1397 262.322 58.213C250.3 54.2806 237.25 45.3539 225.216 39.4215C212.182 33.4948 200.166 30.5624 187.155 28.6356C175.149 27.7031 162.149 27.7763 150.166 30.8438C137.184 33.9169 125.218 39.9844 112.252 46.0574C100.285 52.1249 87.3195 58.198 75.3084 56.2655C62.303 55.3387 50.2525 46.4064 37.2246 41.4797C25.2022 37.5473 12.2025 37.6204 6.20255 37.6542L0.202644 37.688L2.1968e-05 1.68854L5.99993 1.65477C11.9998 1.621 24.9996 1.54783 36.9994 1.48029C49.9992 1.40712 61.999 1.33958 74.9988 1.26641C86.9986 1.19887 99.9984 1.1257 111.998 1.05816C124.998 0.984989 136.998 0.917448 149.998 0.844279C161.997 0.776739 174.997 0.70357 186.997 0.636029C199.997 0.56286 211.997 0.49532 224.996 0.422151C236.996 0.35461 249.996 0.281441 261.996 0.213901C274.996 0.140732 286.995 0.0731912 293.995 0.0337926L299.995 2.22921e-05L300.35 62.999Z"
+                        fill="#EEA7A7" />
+                </svg>
+
+                <div class="div-image">
+                    <img src="MF-529 MTB.png" class="image-produto">
+                </div>
+                <div class="click-produto">
+                    <center>
+                        <i class="bi bi-arrow-right arrow"></i>
+                    </center>
+                </div>
+                <div class="nome-produto">
+                    <p>
+                        <a href="" class="text-decoration-none">
+                            <span class="nome">
+                                Epic EVO Comp
+                            </span>
+                            <br>
+                            <span class="price">
+                                R$ 49.990,00
+                            </span>
+                        </a>
+                    </p>
+                </div>
             </ul>
             <ul class="ul-info-produtos">
                 <svg width="301" height="64" viewBox="0 0 301 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M300.35 62.999L294.35 63.0328C287.35 63.0722 275.35 63.1397 262.322 58.213C250.3 54.2806 237.25 45.3539 225.216 39.4215C212.182 33.4948 200.166 30.5624 187.155 28.6356C175.149 27.7031 162.149 27.7763 150.166 30.8438C137.184 33.9169 125.218 39.9844 112.252 46.0574C100.285 52.1249 87.3195 58.198 75.3084 56.2655C62.303 55.3387 50.2525 46.4064 37.2246 41.4797C25.2022 37.5473 12.2025 37.6204 6.20255 37.6542L0.202644 37.688L2.1968e-05 1.68854L5.99993 1.65477C11.9998 1.621 24.9996 1.54783 36.9994 1.48029C49.9992 1.40712 61.999 1.33958 74.9988 1.26641C86.9986 1.19887 99.9984 1.1257 111.998 1.05816C124.998 0.984989 136.998 0.917448 149.998 0.844279C161.997 0.776739 174.997 0.70357 186.997 0.636029C199.997 0.56286 211.997 0.49532 224.996 0.422151C236.996 0.35461 249.996 0.281441 261.996 0.213901C274.996 0.140732 286.995 0.0731912 293.995 0.0337926L299.995 2.22921e-05L300.35 62.999Z" fill="#EEA7A7"/>
-                    </svg>
-                 
-            <div class="div-image">
-                <img src="ROAD R1 BRAVE.png" class="image-produto">
-            </div>  
-            <div class="click-produto">
-                <center>
-                    <i class="bi bi-arrow-right arrow"></i>
-                </center>
-            </div>
-            <div class="nome-produto">
-                <p>
-                    <a href="" class="text-decoration-none">
-                        <span class="nome">
-                            Epic EVO Comp
-                        </span>
-                        <br>
-                        <span class="price">
-                            R$ 49.990,00
-                        </span>
-                    </a>
-                </p>
-            </div>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M300.35 62.999L294.35 63.0328C287.35 63.0722 275.35 63.1397 262.322 58.213C250.3 54.2806 237.25 45.3539 225.216 39.4215C212.182 33.4948 200.166 30.5624 187.155 28.6356C175.149 27.7031 162.149 27.7763 150.166 30.8438C137.184 33.9169 125.218 39.9844 112.252 46.0574C100.285 52.1249 87.3195 58.198 75.3084 56.2655C62.303 55.3387 50.2525 46.4064 37.2246 41.4797C25.2022 37.5473 12.2025 37.6204 6.20255 37.6542L0.202644 37.688L2.1968e-05 1.68854L5.99993 1.65477C11.9998 1.621 24.9996 1.54783 36.9994 1.48029C49.9992 1.40712 61.999 1.33958 74.9988 1.26641C86.9986 1.19887 99.9984 1.1257 111.998 1.05816C124.998 0.984989 136.998 0.917448 149.998 0.844279C161.997 0.776739 174.997 0.70357 186.997 0.636029C199.997 0.56286 211.997 0.49532 224.996 0.422151C236.996 0.35461 249.996 0.281441 261.996 0.213901C274.996 0.140732 286.995 0.0731912 293.995 0.0337926L299.995 2.22921e-05L300.35 62.999Z"
+                        fill="#EEA7A7" />
+                </svg>
+
+                <div class="div-image">
+                    <img src="ROAD R1 BRAVE.png" class="image-produto">
+                </div>
+                <div class="click-produto">
+                    <center>
+                        <i class="bi bi-arrow-right arrow"></i>
+                    </center>
+                </div>
+                <div class="nome-produto">
+                    <p>
+                        <a href="" class="text-decoration-none">
+                            <span class="nome">
+                                Epic EVO Comp
+                            </span>
+                            <br>
+                            <span class="price">
+                                R$ 49.990,00
+                            </span>
+                        </a>
+                    </p>
+                </div>
             </ul>
         </div>
     </div>
 
     <svg width="1600" height="288" viewBox="0 0 1600 288" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0L66.6667 42C133.333 84 266.667 168 400 168C533.333 168 666.667 84 800 72C933.333 60 1066.67 120 1200 138C1333.33 156 1466.67 132 1533.33 120L1600 108V288H1533.33C1466.67 288 1333.33 288 1200 288C1066.67 288 933.333 288 800 288C666.667 288 533.333 288 400 288C266.667 288 133.333 288 66.6667 288H0V0Z" fill="#EEA7A7" fill-opacity="0.6"/>
-        </svg>
-        <section class="footer">
-            <div class="social">
-              <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
-              <a href="#" target="_blank"><i class="bi bi-facebook"></i></a>
-              <a href="#" target="_blank"><i class="bi bi-hand-thumbs-up"></i></a>
-            </div>
-            <ul class="list" style="margin-bottom: 50px;">
-              <li>
+        <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M0 0L66.6667 42C133.333 84 266.667 168 400 168C533.333 168 666.667 84 800 72C933.333 60 1066.67 120 1200 138C1333.33 156 1466.67 132 1533.33 120L1600 108V288H1533.33C1466.67 288 1333.33 288 1200 288C1066.67 288 933.333 288 800 288C666.667 288 533.333 288 400 288C266.667 288 133.333 288 66.6667 288H0V0Z"
+            fill="#EEA7A7" fill-opacity="0.6" />
+    </svg>
+    <section class="footer">
+        <div class="social">
+            <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="#" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="#" target="_blank"><i class="bi bi-hand-thumbs-up"></i></a>
+        </div>
+        <ul class="list" style="margin-bottom: 50px;">
+            <li>
                 <a href="#">Home</a>
-              </li>
-              <li>
+            </li>
+            <li>
                 <a href="#">Produtos</a>
-              </li>
-              <li>
+            </li>
+            <li>
                 <a href="#">Termos</a>
-              </li>
-              <li>
+            </li>
+            <li>
                 <a href="#">Política de Privacidade</a>
-              </li>
-            </ul>
-            <p class="copyright" style="padding-bottom: 50px">
-              <a href="https://github.com/drielsz" target="_blank" style="color: #FFFF">
+            </li>
+        </ul>
+        <p class="copyright" style="padding-bottom: 50px">
+            <a href="https://github.com/drielsz" target="_blank" style="color: #FFFF">
                 Adriel Oliveira @ 2022
-              </a>
-            </p>
-          </section>
+            </a>
+        </p>
+    </section>
+
+
+    <script src="index.js"></script>
 </body>
 
 </html>
