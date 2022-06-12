@@ -24,20 +24,91 @@ html {
   background-color: #101010 !important;
 }
 
+.container_image {
+  background-image: url("front-line.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #339121;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  height: 37.5rem;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.container_image h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  font-weight: 250;
+  font-size: 1.5625rem;
+  text-transform: uppercase;
+  color: #ebebeb;
+}
+
+.container_image p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5625rem;
+  color: #ebebeb;
+  
+  text-transform: uppercase;
+}
+
+.container_image b {
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.5625rem;
+  color: #eea7a7;
+  
+  text-transform: uppercase;
+}
+
+.button{
+  width: 25%;
+  height: 2.5rem;
+  position: relative;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #eea7a7;
+  border-radius: 0.4375rem;
+}
+
+.button:hover{
+  border: 1px solid transparent;
+  background-color: #eea7a7;
+  cursor: pointer;
+}
+
+.container_image div {
+  display: flex;
+}
+
 .text-light {
   font-family: "Poppins", sans-serif;
   font-style: regular;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .height-35 {
-  height: 35px;
-  max-height: 35px;
+  height: 2.1875rem;
+  max-height: 2.1875rem;
 }
 
 .line-height-35 {
-  line-height: 35px;
+  line-height: 2.1875rem;
 }
 
 .text-decoration-none {
@@ -53,7 +124,7 @@ html {
 }
 
 .right-55 {
-  right: 55px;
+  right: 3.4375rem;
 }
 
 .right-0 {
@@ -70,7 +141,7 @@ html {
 
 .btn-entrar {
   background-color: #b8b8b8;
-  width: 211px;
+  width: 13.1875rem;
   text-align: center;
 }
 
@@ -80,11 +151,11 @@ html {
 }
 
 .second-header {
-  height: 80px;
-  max-height: 80px;
+  height: 5rem;
+  max-height: 5rem;
   background-color: #ffffffff;
-  border-bottom: 1px solid #b8b8b8;
-  line-height: 80px;
+  border-bottom: 0.0625rem solid #b8b8b8;
+  line-height: 5rem;
   width: 100%;
   display: inline-block;
 }
@@ -93,7 +164,7 @@ html {
   font-family: "Poppins", sans-serif;
   font-style: italic;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 1.5625rem;
   color: #101010;
 }
 
@@ -105,7 +176,7 @@ html {
   font-family: "Poppins", sans-serif;
   font-style: italic;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .a-to-second-header:hover {
@@ -115,16 +186,16 @@ html {
 .ul-child-second-header {
   display: flex;
   justify-content: space-between;
-  width: 800px;
-  padding-left: 300px;
+  width: 50rem;
+  padding-left: 18.75rem;
 }
 
 .div-icon {
   display: flex;
   justify-content: space-evenly;
-  width: 200px;
+  width: 12.5rem;
   position: absolute;
-  right: 55px;
+  right: 3.4375rem;
 }
 
 .last {
@@ -135,27 +206,6 @@ html {
   color: #eea7a7;
 }
 
-.image {
-  margin-top: 0px;
-  height: 600px;
-  width: 100%;
-  background-color: #eea7a7;
-  background-image: url("front-line.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  flex-wrap: wrap;
-  overflow: hidden;
-}
-
-.text-inside-image {
-  line-height: 550px;
-  font-family: "Poppins", sans-serif;
-  font-style: italic;
-  font-weight: 250;
-  font-size: 25px;
-  color: #ebebeb;
-}
-
 .negrito-rosa {
   color: #eea7a7;
 }
@@ -164,7 +214,7 @@ html {
   font-family: "Poppins";
   font-style: italic;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 1.5625rem;
 }
 
 .content-info-produtos {
@@ -179,23 +229,23 @@ html {
 
 .ul-info-produtos {
   background-color: #ebebeb;
-  height: 500px;
-  max-height: 500px;
-  width: 300px;
-  max-width: 300px;
+  height: 31.25rem;
+  max-height: 31.25rem;
+  width: 18.75rem;
+  max-width: 18.75rem;
   padding: 0;
   /* POSITION */
   position: relative;
   /*  */
-  margin-bottom: 60px;
+  margin-bottom: 3.75rem;
   /*  */
   display: flex;
 }
 
 .header-produto {
   position: absolute;
-  width: 250px;
-  height: 40px;
+  width: 15.625rem;
+  height: 2.5rem;
   top: 0;
   background-color: #eea7a7;
   transform: rotate(179.68deg);
@@ -203,9 +253,9 @@ html {
 
 .div-image {
   width: 90%;
-  height: 220px;
+  height: 13.75rem;
   position: absolute;
-  top: 120px;
+  top: 7.5rem;
   left: 5%;
 }
 
@@ -213,20 +263,20 @@ html {
   position: relative;
   width: 100%;
   text-align: center;
-  top: 40px;
+  top: 2.5rem;
 }
 
 .nome-produto {
   position: absolute;
-  bottom: 40px;
-  left: 25px;
+  bottom: 2.5rem;
+  left: 1.5625rem;
 }
 
 .nome {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #101010;
 }
 
@@ -234,17 +284,17 @@ html {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 275;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #101010;
 }
 
 .click-produto {
   position: absolute;
   background-color: #eea7a7;
-  width: 35px;
-  height: 35px;
-  bottom: 120px;
-  right: 25px;
+  width: 2.1875rem;
+  height: 2.1875rem;
+  bottom: 7.5rem;
+  right: 1.5625rem;
   border-radius: 50%;
 }
 
@@ -256,16 +306,16 @@ html {
   position: relative;
   width: 100%;
   text-align: center;
-  line-height: 35px;
+  line-height: 2.1875rem;
   color: #ebebeb;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .first-frase {
   font-family: "Poppins";
   font-style: italic;
   font-weight: 250;
-  font-size: 25px;
+  font-size: 1.5625rem;
   color: #ebebeb;
 }
 
@@ -273,7 +323,7 @@ html {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 1.5625rem;
   color: #ebebeb;
 }
 
@@ -281,14 +331,13 @@ html {
   font-family: "Poppins";
   font-style: italic;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 1.5625rem;
   color: #eea7a7;
 }
 
-
 .footer {
   font-family: "Poppins", sans-serif;
-  padding: 75px 0;
+  padding: 4.6875rem 0;
   padding-bottom: 0;
   background-color: #eea7a7;
   opacity: 0.6;
@@ -298,21 +347,21 @@ html {
 
 .footer .social {
   text-align: center;
-  padding-bottom: 25px;
+  padding-bottom: 1.5625rem;
   color: #fff;
 }
 
 .footer .social a {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: inherit;
-  border: 1px solid #ffff;
-  width: 40px;
-  height: 40px;
-  line-height: 38px;
+  border: 0.0625rem solid #ffff;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.375rem;
   display: inline-block;
   text-align: center;
   border-radius: 50%;
-  margin: 0 8px;
+  margin: 0 0.5rem;
   opacity: 0.75;
 }
 
@@ -324,7 +373,7 @@ html {
   margin-top: 0;
   padding: 0;
   list-style: none;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 1.6;
   margin-bottom: 0;
   text-decoration: none;
@@ -339,7 +388,7 @@ html {
 
 .footer ul li {
   display: inline-block;
-  padding: 0 15px;
+  padding: 0 0.9375rem;
 }
 
 .footer ul li a:hover {
@@ -348,34 +397,34 @@ html {
 
 .footer .copyright {
   text-align: center;
-  margin-top: 15px;
-  font-size: 13px;
+  margin-top: 0.9375rem;
+  font-size: 0.8125rem;
   color: #ffff;
   margin-bottom: 0;
 }
 
 .nav-toggler {
-  height: 34px;
-  width: 44px;
+  height: 2.125rem;
+  width: 2.75rem;
   background-color: transparent;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   cursor: pointer;
   border: none;
   display: none;
   position: absolute;
-  right: 0px;
-  top: 22px;
+  right: 0rem;
+  top: 1.375rem;
   z-index: 99999;
 }
 
 .nav-toggler:focus {
   outline: none;
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 0.9375rem rgba(255, 255, 255, 0.5);
 }
 
 .nav-toggler span {
-  height: 2px;
-  width: 20px;
+  height: 0.125rem;
+  width: 1.25rem;
   background-color: #eea7a7;
   display: block;
   margin: auto;
@@ -399,11 +448,11 @@ html {
 }
 
 .nav-toggler span::before {
-  transform: translateY(-6px);
+  transform: translateY(-0.375rem);
 }
 
 .nav-toggler span::after {
-  transform: translateY(6px);
+  transform: translateY(0.375rem);
 }
 
 .nav-toggler.active span::before {
@@ -432,17 +481,17 @@ html {
   height: 100%;
 }
 
-@media (max-width: 1309px) {
+@media (max-width: 81.8125rem) {
   .ul-child-second-header {
-    width: 600px;
-    padding-left: 200px;
+    width: 37.5rem;
+    padding-left: 12.5rem;
   }
 }
 
-@media (max-width: 1099px) {
+@media (max-width: 68.6875rem) {
   .ul-child-second-header {
-    width: 500px;
-    padding-left: 50px;
+    width: 31.25rem;
+    padding-left: 3.125rem;
   }
   .display-out {
     display: none;
@@ -453,7 +502,7 @@ html {
   }
 }
 
-@media (max-width: 1011px) {
+@media (max-width: 63.1875rem) {
   .desappear {
     display: none;
   }
@@ -462,7 +511,7 @@ html {
   }
 }
 
-@media (max-width: 871px) {
+@media (max-width: 54.4375rem) {
   .logo-desappear {
     display: none;
   }
@@ -471,22 +520,22 @@ html {
   }
 }
 
-@media (max-width: 592px) {
+@media (max-width: 37rem) {
   .ul-info-produtos {
     background-color: transparent;
   }
   .svg-despr {
     display: none;
   }
-  .first-frase{
+  .first-frase {
     margin-right: 20%;
   }
-  pre .teste{
-   display: none;
+  pre .teste {
+    display: none;
   }
 }
 
-@media (max-width: 535px) {
+@media (max-width: 33.4375rem) {
   .appear-affter {
     display: none;
   }
@@ -499,13 +548,12 @@ html {
   .container-header {
     text-align: center;
   }
-  .image {
-    background-position: -350px;
+  .container_image {
+    background-position: -21.875rem;
   }
 }
 
-
-@media (max-width: 319px) {
+@media (max-width: 19.9375rem) {
   .icon-dsrp {
     display: none;
   }
@@ -514,25 +562,25 @@ html {
   }
 }
 
-@media (max-width: 287px) {
+@media (max-width: 17.9375rem) {
   .div-last-icons {
     width: 300%;
   }
 }
 
-@media (max-width: 240px) {
+@media (max-width: 15rem) {
   .div-last-icons {
     width: 200%;
   }
 }
 
-@media (max-width: 179px) {
+@media (max-width: 11.1875rem) {
   .div-last-icons {
     width: 120%;
   }
 }
 
-@media (max-width: 169px) {
+@media (max-width: 10.5625rem) {
   .bg-dark {
     display: none;
   }
