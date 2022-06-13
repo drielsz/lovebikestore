@@ -40,6 +40,7 @@ html {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   flex-wrap: wrap;
   overflow: hidden;
 }
@@ -111,7 +112,7 @@ html {
   line-height: 2.1875rem;
 }
 
-.text-decoration-none {
+.color-1010 {
   text-decoration: none;
 }
 
@@ -479,6 +480,14 @@ html {
 .div-last-icons {
   width: 350%;
   height: 100%;
+}
+
+.click-produto:hover {
+  opacity: 0.8;
+}
+
+.arrow:hover {
+  opacity: 0.8;
 }
 
 @media (max-width: 81.8125rem) {
